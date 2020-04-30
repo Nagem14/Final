@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.afinal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:5:5-69
+11-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:5:22-66
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:8:5-102:19
+15        android:allowBackup="true"
+15-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\Megan\.gradle\caches\transforms-2\files-2.1\da95e0dd41fd0c634661df2a0f122634\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:14:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:15:9-40
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:9:9-44
+26        <activity
+26-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:16:9-23:20
+27            android:name="com.example.afinal.MainActivity"
+27-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:16:19-47
+28            android:label="Main Menu Options" >
+28-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:17:13-46
+29            <intent-filter>
+29-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:18:13-22:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:19:17-69
+30-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:19:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:21:17-77
+32-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:21:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:25:9-28:20
+36            android:name="com.example.afinal.Search"
+36-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:26:13-35
+37            android:label="Search" >
+37-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:27:13-35
+38        </activity>
+39        <activity
+39-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:30:9-33:20
+40            android:name="com.example.afinal.Bulletin"
+40-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:31:13-37
+41            android:label="Bulletin" >
+41-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:32:13-37
+42        </activity>
+43        <activity
+43-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:35:9-38:20
+44            android:name="com.example.afinal.ListEvent"
+44-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:36:13-38
+45            android:label="List Bulletin Event" >
+45-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:37:13-48
+46        </activity>
+47        <activity
+47-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:40:9-43:20
+48            android:name="com.example.afinal.ViewEvents"
+48-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:41:13-39
+49            android:label="View All Bulletin Events" >
+49-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:42:13-53
+50        </activity>
+51        <activity
+51-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:45:9-48:20
+52            android:name="com.example.afinal.ListEventConfirm"
+52-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:46:13-45
+53            android:label="Confirmation to List an Event" >
+53-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:47:13-58
+54        </activity>
+55        <activity
+55-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:50:9-53:20
+56            android:name="com.example.afinal.ViewIndividualEvent"
+56-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:51:13-48
+57            android:label="View an Individual Event" >
+57-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:52:13-53
+58        </activity>
+59        <activity
+59-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:55:9-58:20
+60            android:name="com.example.afinal.EditEvent"
+60-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:56:13-38
+61            android:label="Edit an Event" >
+61-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:57:13-42
+62        </activity>
+63        <activity
+63-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:60:9-63:20
+64            android:name="com.example.afinal.DeleteConfirmation"
+64-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:61:13-47
+65            android:label="Confirmation to Delete an Event" >
+65-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:62:13-60
+66        </activity>
+67        <activity
+67-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:65:9-68:20
+68            android:name="com.example.afinal.EventCodeConfirm"
+68-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:66:13-45
+69            android:label="Code Confirmation to Edit/Delete an Event" >
+69-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:67:13-70
+70        </activity>
+71        <activity
+71-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:70:9-73:20
+72            android:name="com.example.afinal.EditConfirmation"
+72-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:71:13-45
+73            android:label="Confirmation to Save Edit an Event" >
+73-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:72:13-63
+74        </activity>
+75        <activity
+75-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:75:9-79:20
+76            android:name="com.example.afinal.Operations"
+76-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:76:13-39
+77            android:label="@string/title_activity_operations"
+77-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:77:13-62
+78            android:theme="@style/AppTheme.NoActionBar" >
+78-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:78:13-56
+79        </activity>
+80        <activity
+80-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:81:9-85:20
+81            android:name="com.example.afinal.Emergency"
+81-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:82:13-38
+82            android:label="@string/title_activity_emergency"
+82-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:83:13-61
+83            android:theme="@style/AppTheme.NoActionBar" >
+83-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:84:13-56
+84        </activity>
+85        <activity
+85-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:87:9-91:20
+86            android:name="com.example.afinal.Dining"
+86-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:88:13-35
+87            android:label="@string/title_activity_dinning"
+87-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:89:13-59
+88            android:theme="@style/AppTheme.NoActionBar" >
+88-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:90:13-56
+89        </activity>
+90        <activity
+90-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:93:9-94:53
+91            android:name="com.example.afinal.ActivityShuttleSchedule"
+91-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:93:19-58
+92            android:label="@string/title_shuttle" />
+92-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:94:13-50
+93        <activity
+93-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:96:9-97:53
+94            android:name="com.example.afinal.ShuttleLists"
+94-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:96:19-47
+95            android:label="@string/title_shuttle" />
+95-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:97:13-50
+96        <activity
+96-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:98:9-99:53
+97            android:name="com.example.afinal.ShuttleWebView"
+97-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:98:19-49
+98            android:label="@string/title_shuttle" />
+98-->C:\Users\Megan\Documents\Bentley\S10\CS680\Team\Final 2.0\app\src\main\AndroidManifest.xml:99:13-50
+99    </application>
+100
+101</manifest>

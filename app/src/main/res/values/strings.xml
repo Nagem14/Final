@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="title_activity_emergency">Emergency Contacts</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_operations">Campus Operating Hours</string>
+    <string name="title_activity_dinning">Campus Dining Options</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="covid_19">LATEST COVID-19 UPDATES</string>
+    <string name="bulletin">Bulletin</string>
+    <string name="search">Search</string>
+    <string name="back_button">Back</string>
+    <string name="list_event">List New Event</string>
+    <string name="view_events">View Events</string>
+    <string name="title_shuttle">Shuttle Schedule</string>
+    <string name="shuttle_link">https://bentley.transloc.com/</string>
+</resources>

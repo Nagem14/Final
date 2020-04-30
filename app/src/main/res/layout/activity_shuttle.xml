@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/radiogroup">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/schedule_now"
+            android:text="Campus Schedule">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/schedule_later"
+            android:text="Waverley Schedule"
+            >
+        </RadioButton>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/display_webpage"
+            android:text="Visit shuttle website"
+            >
+        </RadioButton>
+    </RadioGroup>
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/display_schedule">
+        </TextView>
+
+    </ScrollView>
+
+
+</LinearLayout>

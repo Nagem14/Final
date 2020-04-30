@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/shuttle_schedule"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Shuttle Schedule"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/operation"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Operating Hours"
+        android:gravity="center">
+    </Button>
+
+    <Button
+        android:id="@+id/emergency"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Contact"
+        android:gravity="center">
+    </Button>
+
+    <Button
+        android:id="@+id/search_main_button"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:gravity="center">
+    </Button>
+
+    <Button
+        android:id="@+id/bulletin_main_button"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Events"
+        android:gravity="center">
+    </Button>
+
+
+</LinearLayout>
